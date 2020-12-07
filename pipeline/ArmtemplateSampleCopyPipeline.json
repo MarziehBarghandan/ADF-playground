@@ -4,7 +4,7 @@
 		"activities": [
 			{
 				"name": "MyCopyActivity",
-				"description": "ADF pipeline improvements",
+				"description": "ADF pipeline branch test",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {

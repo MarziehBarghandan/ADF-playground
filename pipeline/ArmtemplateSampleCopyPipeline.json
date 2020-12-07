@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "MyCopyActivity",
+				"description": "ADF pipeline improvements",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -20,6 +21,9 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true
+						},
+						"formatSettings": {
+							"type": "BinaryReadSettings"
 						}
 					},
 					"sink": {
